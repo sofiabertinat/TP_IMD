@@ -43,10 +43,9 @@
 	pinctrl-names = "default";
 	clock-frequency = <100000>;
 	pinctrl-0 = <&i2c1_pins>;
-
 	/* aca declaramos nuestros devices */
-	myi2c: myi2c@3d {
+	myi2c: myi2c@76 {
 		compatible = "myi2c";
-		reg = <0x3d>;
+		reg = <0x76>;
 	};
 };
